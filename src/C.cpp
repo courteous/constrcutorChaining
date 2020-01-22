@@ -12,7 +12,7 @@ namespace constructroTest
 
 	C::C() : B()
 		{
-			cout << "default C - constructor"  << endl;
+			cout << "default C constructor called"  << endl;
 
 		}
 
