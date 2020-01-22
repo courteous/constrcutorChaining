@@ -8,7 +8,7 @@ namespace constructroTest
 
 	D::D() : C()
 		{
-		cout << "default D constructor"  << endl;
+		cout << "default D constructor called"  << endl;
 		}
 
 	D::~D()
