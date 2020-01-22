@@ -13,12 +13,12 @@ A::~A() {
 
 A::A() {
 
-	cout  << "default BasePrimitive constructor called" << endl;
+	cout  << "default A constructor called" << endl;
 }
 
 A::A(shared_ptr<A> aArgument) {
 
-	cout  << "parameter BasePrimitive constructor called : " << aArgument << endl;
+	cout  << "parameter A constructor called : " << aArgument << endl;
 	}
 
 }
